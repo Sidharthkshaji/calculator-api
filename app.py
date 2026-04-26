@@ -56,6 +56,7 @@ def exp():
 def rem():
     a = float(request.args.get('a',0))
     b = float(request.args.get('b',0))
+    if b==0 : return "Cannot divided by 0"
     return jsonify({
         "First Number " : a,
         "Second Number " : b,

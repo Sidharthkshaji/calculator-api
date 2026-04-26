@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 # Calculator API
 
 A simple Flask calculator API.
+
+## Features
+- Add , Subtract, Multiply, Divide, Exponentiate, and find Reminder of numbers.
+- JSON responses
 
 ## Endpoints
 
@@ -12,4 +17,12 @@ A simple Flask calculator API.
 /exp?a=2&b=2
 /rem?a=15&b=7
 
+## Tech Stack
+- Python
+- Flask
+
 Built as part of building my backend knowledge.
+=======
+# calculator-api
+Created a calculator-api using flask
+>>>>>>> 26517a2cd573a387dd7597a914064e89d19785f2
